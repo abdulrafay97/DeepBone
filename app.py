@@ -55,7 +55,7 @@ def Predict(img):
 
 
 #Get Image
-file_up = st.sidebar.file_uploader('Upload an Image', type = "png")
+file_up = st.sidebar.file_uploader('Upload an Image', type = "jpg")
 
 #Normalizing
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],

@@ -43,7 +43,7 @@ def effNetb4():
 def Predict(img):
     allClasses = ['ART', 'BAS', 'BLA', 'EBO',
                 'EOS', 'HAC', 'LYT', 'MMZ',
-                'MON', 'MYB', 'NGB' 'NGS', 'NIF',
+                'MON', 'MYB', 'NGB', 'NGS', 'NIF',
                 'OTH', 'PEB', 'PLM', 'PMO']
     Mod = effNetb4()
     out = Mod(img)

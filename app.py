@@ -36,6 +36,9 @@ def effNetb4():
         nn.Linear(256, 128),
         nn.ReLU(),
         nn.Linear(128, 17),)
+    
+    model.load_state_dict(torch.load('Weights.h5' , map_location=torch.device('cpu')) )
+    model.eval()
 
     return model
 

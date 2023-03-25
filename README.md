@@ -15,3 +15,6 @@ This repo contains source coude for *DeepBone* webserver, developed and deployed
 
 ## Dataset
 The dataset is available on Kaggle [![Dataset](https://img.shields.io/badge/Dataset-Kaggle-FF21EA)](https://www.kaggle.com/datasets/andrewmvd/bone-marrow-cell-classification)
+
+### Sample-Dataset
+![](Sample-Images/Capture.PNG)
